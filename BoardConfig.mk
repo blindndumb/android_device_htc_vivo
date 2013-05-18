@@ -96,7 +96,7 @@ COMMON_GLOBAL_CFLAGS += -DQCOM_NO_DMX_SUPPORT
 # for recovery
 BOARD_UMS_LUNFILE := /sys/class/android_usb/android0/f_mass_storage/lun0/file
 
-# for 4.2
+# Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/htc/vivo/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := device/htc/vivo/bluetooth/libbt_vndcfg.txt
 
